@@ -5,7 +5,8 @@
     }
     
     body {
-         margin: 0;
+        
+         margin:  auto;
          padding: 0;
          box-sizing: border-box;
          font-family: 'Noto Sans', sans-serif;
@@ -13,9 +14,9 @@
 
 .menuprincipal {
     width: 100%;
-    background-color:#2E8B57;
+    background-color:#57b981;
     height: 150px;
-    width: 1500px;
+    width: 1295px;
     
 }
 main {
@@ -37,7 +38,7 @@ position: relative;
     
 }
 .redessociais ul li{
-    margin-left: 2px;
+    margin-left: 5px;
     display: inline-block;
     float: left;
     list-style: none;
@@ -45,7 +46,7 @@ position: relative;
 
 .youtube{
    display: inline-block;
-   margin-right: 10px;
+   margin-left: 42px;
    padding: 40px;
    list-style: none;
    float: right;
@@ -54,7 +55,7 @@ position: relative;
 .instagram {
 display: inline block;
 padding: 40px;
-  margin-right: 15px;
+  margin-left: 0;
   list-style: none;
   float :right ; 
 }
@@ -80,7 +81,7 @@ padding: 40px;
 .menu ul li  {
     display:  inline-block;
     color: #2E8B57;
-    margin-left: 10px;
+    margin-left: 15px;
     height: 55px;
     
 }
@@ -104,7 +105,7 @@ padding: 40px;
 
 }
 .menu {
-    padding-top: 15px;
+    padding-top: 20px;
     width: 80%;
     float: left;
 }
@@ -130,7 +131,47 @@ margin-top: 13px;
     float: left;
     position: relative;
 }
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 20px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9;
+    background-image: url('../img/arrow-back-ios_116858.png');
+    top: 50%;
+    left: 5%;
+
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 20px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9;
+    background-image: url('../img/arrow-forward-ios_116852.png');
+    top: 50%;
+    right: 5%;
+    
+}
+.slider-principal {
+    width: 100%!important;
+}
+ul.stick-dots  li button {
+    display: inline-block;
+font-size: 0px;
+border: 3px solid #ffffff;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+background-color: #57b981;
+
+}
+ul.stick-dots li.stick-active {
+    background-color: #57b981;
+}
 
 
- </style>
-</html>
