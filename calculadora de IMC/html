@@ -39,7 +39,7 @@
                         <i class="fa-solid fa-ruler"></i>
                         <input type="number" id="height" required>
                         <span>
-                            M
+                            m
                         </span>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                     Calcular
                 </button>
             </form>
-            <div id="infos">
+            <div id="infos" class="hidden">
                 <div id="result">
                     <div id="bmi">
                         <span id="value"></span>
@@ -57,8 +57,8 @@
                         <span></span>
                     </div>
                 </div>
-
-                <div id="mor_info">
+            
+                <div id="more_info">
                     <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi04I-ykNKGAxVgQUgAHbj6DHEYABAEGgJjZQ&ase=2&gclid=CjwKCAjwyJqzBhBaEiwAWDRJVLisH3nc3ZG-K2QiLB8iKJTrBqVBO3ZHxstne-HGzmvzb5GswDsePBoCnFcQAvD_BwE&ohost=www.google.com&cid=CAESV-D2DmWJ7wWindXbXE6MvkF5SV-hiZmUTOK5Kp_9TZ9_Tt7RgyGbRrqnfB_7rwHFEU0plRUHVPqT843f5AmypBmzOQnaE5fd5SBKo9Rr1JpRpfCm1-FKzQ&sig=AOD64_2zUp7VezfN1jMzZ9V5An0yS2Y9zQ&q&nis=4&adurl&ved=2ahUKEwi83YqykNKGAxWSq5UCHajsCVsQ0Qx6BAgMEAE">
                         Mais informações sobre o IMC
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -67,5 +67,3 @@
             </div>
         </section>
     </main>
-</body>
-</html>
