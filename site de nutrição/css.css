@@ -160,15 +160,29 @@ button.slick-next {
 .slider-principal {
     width: 100%!important;
 }
-ul.stick-dots  li button {
-    display: inline-block;
+.slick-dots li button {
 font-size: 0px;
-border: 3px solid #ffffff;
+border: 5px solid #000000;
+width: 25px;
+height: 25px;
+background: transparent;
 border-radius: 50%;
-width: 20px;
-height: 20px;
-background-color: #57b981;
-
+cursor: pointer;
+}
+.slick-dots{
+    
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 49%;
+    top: 95%;
+}
+li.slick-active button{
+    background: #2E8B57;
+}
+.slick-dots li{
+    padding-left: 10px;
+    display: inline-block;
 }
 ul.stick-dots li.stick-active {
     background-color: #57b981;
