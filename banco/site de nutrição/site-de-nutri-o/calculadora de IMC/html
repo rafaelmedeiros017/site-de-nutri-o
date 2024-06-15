@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>calculoIMC</title>
+</head>
+<body>
+    <main id="container">
+        <section id="img">
+            <img src="./calculadora.png">
+        </section>
+
+        <section id="calculator">
+            <form id="form">
+                <h1 id="tittle">
+                    Calculadora - IMC
+                </h1>
+                <div class="input-box">
+                    <label for="weight">
+                        Peso em Kg
+                    </label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-weight-hanging"></i>
+                        <input type="number" id="weight" required>
+                        <span>
+                            Kg
+                        </span>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="height">
+                        Altura em metros
+                    </label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-ruler"></i>
+                        <input type="number" id="height" required>
+                        <span>
+                            M
+                        </span>
+                    </div>
+                </div>
+                <button id="calculate">
+                    Calcular
+                </button>
+            </form>
+            <div id="infos">
+                <div id="result">
+                    <div id="bmi">
+                        <span id="value"></span>
+                        <span>Seu IMC</span>
+                    </div>
+                    <div id="description">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div id="mor_info">
+                    <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi04I-ykNKGAxVgQUgAHbj6DHEYABAEGgJjZQ&ase=2&gclid=CjwKCAjwyJqzBhBaEiwAWDRJVLisH3nc3ZG-K2QiLB8iKJTrBqVBO3ZHxstne-HGzmvzb5GswDsePBoCnFcQAvD_BwE&ohost=www.google.com&cid=CAESV-D2DmWJ7wWindXbXE6MvkF5SV-hiZmUTOK5Kp_9TZ9_Tt7RgyGbRrqnfB_7rwHFEU0plRUHVPqT843f5AmypBmzOQnaE5fd5SBKo9Rr1JpRpfCm1-FKzQ&sig=AOD64_2zUp7VezfN1jMzZ9V5An0yS2Y9zQ&q&nis=4&adurl&ved=2ahUKEwi83YqykNKGAxWSq5UCHajsCVsQ0Qx6BAgMEAE">
+                        Mais informações sobre o IMC
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

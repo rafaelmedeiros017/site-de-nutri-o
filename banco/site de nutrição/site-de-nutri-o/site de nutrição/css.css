@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap');
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        
+         margin:  auto;
+         padding: 0;
+         box-sizing: border-box;
+         font-family: 'Noto Sans', sans-serif;
+    }
+
+.menuprincipal {
+    width: 100%;
+    background-color:#57b981;
+    height: 150px;
+    width: 1295px;
+    
+}
+main {
+    margin: 0 auto;
+width: 980px;
+
+position: relative;
+}
+
+.logo {
+    float: left;
+    width: 70%;
+
+}
+.redessociais  {
+    display: inline-block;
+    list-style: none;
+    float: left;    
+    
+}
+.redessociais ul li{
+    margin-left: 5px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.youtube{
+   display: inline-block;
+   margin-left: 42px;
+   padding: 40px;
+   list-style: none;
+   float: right;
+}
+
+.instagram {
+display: inline block;
+padding: 40px;
+  margin-left: 0;
+  list-style: none;
+  float :right ; 
+}
+.redessociais {
+    width: 25%;
+    float: right;
+}
+
+.header-2{
+    padding: 10px;
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+   
+}
+.menu-urls{
+    width: 100%;
+    height: 80px;
+    border-bottom: 5px solid #efefef;
+    
+
+}
+.menu ul li  {
+    display:  inline-block;
+    color: #2E8B57;
+    margin-left: 15px;
+    height: 55px;
+    
+}
+
+.menu ul li:hover{
+    border-bottom: 3px solid #2E8B57;
+    
+}
+
+.menu ul li a:hover{
+    color: #2E8B57;
+    transition: 0.3s;
+}
+
+.menu ul li a {
+    font-size: 20px;
+    color: #929292;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 3vh;
+
+}
+.menu {
+    padding-top: 20px;
+    width: 80%;
+    float: left;
+}
+
+     
+
+.busca{
+margin-top: 13px;
+    width: 15%;
+    float: right;
+    
+    
+}
+.busca input {
+    height: 30px;
+   
+    width: 190px;
+    text-align: center;
+    border: 1px solid #d6d6d6;
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 20px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9;
+    background-image: url('../img/arrow-back-ios_116858.png');
+    top: 50%;
+    left: 5%;
+
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 20px;
+    height: 32px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9;
+    background-image: url('../img/arrow-forward-ios_116852.png');
+    top: 50%;
+    right: 5%;
+    
+}
+.slider-principal {
+    width: 100%!important;
+}
+.slick-dots li button {
+font-size: 0px;
+border: 5px solid #000000;
+width: 25px;
+height: 25px;
+background: transparent;
+border-radius: 50%;
+cursor: pointer;
+}
+.slick-dots{
+    
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 49%;
+    top: 95%;
+}
+li.slick-active button{
+    background: #2E8B57;
+}
+.slick-dots li{
+    padding-left: 10px;
+    display: inline-block;
+}
+ul.stick-dots li.stick-active {
+    background-color: #57b981;
+}
+
+

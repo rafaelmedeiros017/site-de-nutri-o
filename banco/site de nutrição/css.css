@@ -1,0 +1,97 @@
+body {width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.menuprincipal {
+    width: 100%;
+    background-color:#acacac;
+    height: 150px;
+    width: 1500px;
+    
+}
+main {
+    margin: 0 auto;
+width: 980px;
+
+position: relative;
+}
+.logo {float: left;
+    
+    width: 70%;
+}
+.redessociais  {
+    display: inline-block;
+    list-style: none;
+    float: left;    
+    
+}
+.youtube{
+    display: inline-block;
+   margin-right: 10px;
+   padding: 40px;
+list-style: none;
+float: right;
+}
+.instagram {
+display: inline block;
+padding: 40px;
+  margin-right: 15px;
+  list-style: none;
+  float :right ; 
+}
+.redessociais {
+    width: 25%;
+    float: right;
+}
+
+.header-2{
+    padding: 10px;
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+   
+}
+.menu-urls{
+    width: 100%;
+    height: 80px;
+    border-bottom: 5px solid #efefef;
+}
+.menu ul li  {
+    display:  inline-block;
+    color: #bdbdbd;
+    margin-left: 10px;
+}
+.menu ul li a {
+    font-size: 20px;
+    color: #bdbdbd;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.menu {
+    width: 80%;
+    float: left;
+}
+
+     
+
+.busca{
+margin-top: 13px;
+    width: 15%;
+    float: right;
+    
+    
+}
+.busca input {
+    height: 30px;
+   
+    width: 190px;
+    text-align: center;
+    border: 1px solid #d6d6d6;
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
